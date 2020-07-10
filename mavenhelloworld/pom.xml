@@ -80,7 +80,7 @@
           <!-- This plugin will set the properties values using dependency information -->
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
-          <version>2.3</version>
+          <version>3.0.1</version>
           <executions>
               <execution>
                   <goals>
@@ -92,8 +92,8 @@
       <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <configuration>
-              <source>1.6</source>
-              <target>1.6</target>
+              <source>3.6.2</source>
+              <target>3.6.2</target>
               <fork>true</fork>
               <!-- Add all the checkers you want to enable here -->
               <annotationProcessors>
